@@ -38,7 +38,7 @@ BUTTONS = {}
 SPELL_CHECK = {}
 
 
-@Client.on_message(filters.group & filters.text & filters.incoming)
+@Client.on_message((filters.group | filters.private) & filters.text & filters.incoming
 async def give_filter(client, message):
     if message.chat.id != SUPPORT_CHAT_ID:
         glob = await global_filters(client, message)
@@ -56,7 +56,7 @@ async def give_filter(client, message):
                     if settings['auto_ffilter']:
                         await auto_filter(client, message)
 
-@Client.on_message(filters.private & filters.text & filters.incoming)
+@Client.on_message((filters.group | filters.private) & filters.text & filters.incoming
 async def pm_text(bot, message):
     content = message.text
     user = message.from_user.first_name
