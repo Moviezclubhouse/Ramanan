@@ -56,7 +56,7 @@ async def give_filter(client, message):
                     if settings['auto_ffilter']:
                         await auto_filter(client, message)
 
-@Client.on_message((filters.group | filters.private) & filters.text & ~filters.edited & filters.incoming)
+@Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
 async def pm_text(bot, message):
     content = message.text
     user = message.from_user.first_name
