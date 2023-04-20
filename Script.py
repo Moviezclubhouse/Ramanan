@@ -211,7 +211,7 @@ IMDb Data:
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
 ☀️ Languages : <code>{languages}</code>
-🔖 Story Line :  <code>{story}</code>
+🔖 Story Line :  <code>{story line}</code>
 Requested by : {message.from_user.mention}</b>"""
 
 
