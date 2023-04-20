@@ -271,7 +271,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("⚡️ 𝑪𝒉𝒆𝒄𝒌 𝑩𝒐𝒕 𝑷𝒎 ⚡️, url="http://t.me/{temp.U_NAME}?startgroup=true")
+        InlineKeyboardButton("⚡️ 𝑪𝒉𝒆𝒄𝒌 𝑩𝒐𝒕 𝑷𝒎 ⚡️, url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1439,7 +1439,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡️ 𝑪𝒉𝒆𝒄𝒌 𝑩𝒐𝒕 𝑷𝒎 ⚡️", url="http://t.me/{temp.U_NAME}?startgroup=true")
+        InlineKeyboardButton("⚡️ 𝑪𝒉𝒆𝒄𝒌 𝑩𝒐𝒕 𝑷𝒎 ⚡️", url=f"https://t.me/{temp.U_NAME}")
     ])
 
     if offset != "":
