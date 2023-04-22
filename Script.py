@@ -210,8 +210,8 @@ IMDb Data:
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
 ☀️ Languages : <code>{languages}</code>
 🔖 Story Line :{plot}
-Requested by : {message.from_user.mention}</b>"""
 
+🕵️ Requested by : {message.from_user.mention}</b>"""
 
 
     
