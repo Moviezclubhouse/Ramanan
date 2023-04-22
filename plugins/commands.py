@@ -157,9 +157,9 @@ async def start(client, message):
                          [
                           InlineKeyboardButton('🎥 𝐆𝐫𝐨𝐮𝐩 🎥', url=GRP_LNK),
                           InlineKeyboardButton('🎥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎥', url=CHNL_LNK)
-                       ],[
-                          InlineKeyboardButton("📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀", url="https://t.me/MM_DVD_UPDATES")
-                         ]
+                       ]
+
+
                         ]
                     )
                 )
