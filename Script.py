@@ -191,7 +191,7 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
-<b> {size}
+<b> <i>{file_size}</i>
 ╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗     
  
 ♻️ 𝙅𝙊𝙄𝙉 :- @Cinema_Kottaka_Re_Entry
