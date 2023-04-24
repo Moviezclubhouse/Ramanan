@@ -191,14 +191,14 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
-<b>
-╭─────── • ◆ • ───────╮
-🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/addtheme/DQ_The_File_Donor_Theme">Tᴏᴜᴄʜ</a>
-╰─────── • ◆ • ───────╯
+<b> {size}
+╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗     
+ 
+♻️ 𝙅𝙊𝙄𝙉 :- @Cinema_Kottaka_Re_Entry
 
-=========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : https://t.me/+6mRW3jIRAnFmZmU1
-=========== • ✠ • ===========</b>"""
+ ♻️ 𝙅𝙊𝙄𝙉 :- @Cinema_Kottaka_Re_Entry
+╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝
+ </b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
